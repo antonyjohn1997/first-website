@@ -3,7 +3,7 @@ body {
     margin-top:00px;
 }
 .main {
-    display:flex;
+    display:block;
     background-color: white;
 
 }
