@@ -1,3 +1,4 @@
+
 body {
     margin-top:00px;
 }
@@ -107,4 +108,41 @@ input[type="submit"]:hover {
 #comment {
     height: 40vh;
 }
+.mapouter {
+    margin-top: 20vh;
+    padding: 0px 90px;
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+    background: #e0e0e0;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:800px;
+}
+.footer_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    padding:0; 
+    margin:0;
+}
 
+.footer_text {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bcbcbc;
+    font-size: 8pt;
+}
+
+.footer_text > a {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+.footer:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
